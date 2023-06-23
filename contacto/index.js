@@ -18,6 +18,8 @@
 
         contactModalContent.innerHTML = `Gracias ${userName}!`;
         contactModal.show();
+      } else {
+        e.preventDefault();
       }
 
       contactForm.classList.add("was-validated");
